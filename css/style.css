@@ -1,0 +1,63 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+.active {
+  display: block;
+}
+
+#hamburgerbtn svg {
+  fill: aliceblue;
+}
+
+div[class^="tag-"] {
+  width: 120px;
+  height: 30px;
+  background-color: #1785a7;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+div[class^="tag-"] p {
+  color: #fff;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 1.1rem;
+  padding: 5px;
+}
+
+.progressbar {
+  position: relative;
+  width: 600px;
+  height: 20px;
+  border: 2px solid #48cfad;
+  border-radius: 20px;
+  margin-top: 7px;
+}
+
+div[class^="bar-"] {
+  position: absolute;
+  background-color: #48cfad;
+  height: 10px;
+  border-radius: 20px;
+  margin: 2.7px;
+}
+
+.bar-html {
+  width: calc(98% - 6px);
+}
+.bar-css {
+  width: calc(95% - 6px);
+}
+.bar-js {
+  width: calc(80% - 6px);
+}
+
+.bar-react {
+  width: calc(40% - 6px);
+}
+
+.bar-ui {
+  width: calc(60% - 6px);
+}
